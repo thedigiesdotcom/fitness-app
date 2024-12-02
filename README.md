@@ -30,7 +30,7 @@ This project contains a Fitness App where users can book fitness classes and che
 #### Accessibility: 
   - Colour contrast and text-to-speech features for users with visual or hearing impairments
 
-This example guide aims to help learners understand how to:
+### This example guide aims to help learners understand how to:
 1. Develop a logical structure for the application by outlining its main features and navigation.
 2. Implement good coding practices, such as using the MVVM architecture, integration testing, and thorough documentation.
 3. Incorporate end-user context by identifying key user personas, creating features for user feedback, and ensuring accessibility.
