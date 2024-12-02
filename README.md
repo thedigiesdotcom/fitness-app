@@ -53,9 +53,9 @@ Add additional notes to deploy this on a live system
 
     **Yvette** - *Created the app with the help of chatGPT*
 
-See also the list of
+<!-- See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+who participated in this project. -->
 
 ## License
 
