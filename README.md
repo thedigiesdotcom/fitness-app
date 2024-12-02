@@ -1,6 +1,6 @@
 # Fitness App for Software Development Bootcamp
 
-This project contains a Fitness App where users can book fitness classes and check out info about their trainers
+This project contains a Fitness App where users can book fitness classes and check out info about their trainers. It has been created for a Software Development Bootcamp (Skills Network) to practice Git and GitHub.
 
 ## Designing a Fitness Centre Mobile App
 
