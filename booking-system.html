@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Centre - Booking System</title>
+  <link rel="stylesheet" href="booking-system-style.css" href="booking-system.js">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <button class="menu-btn" onclick="toggleMenu()">&#9776; Menu</button>
+    <h1>Book a Class</h1>
+  </header>
+
+  <!-- Side Menu -->
+  <div class="side-menu" id="sideMenu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Class Schedule</a></li>
+      <li><a href="booking-system.html">Booking System</a></li>
+      <li><a href="#">Trainer Profiles</a></li>
+      <li><a href="#">User Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+  
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <section class="booking-section">
+      <h2>Select a Class and Time</h2>
+      
+      <!-- Class Options -->
+      <div class="class-card" id="class1">
+        <h3>Yoga Class</h3>
+        <p>Time Slots:</p>
+        <select id="yogaTime" class="time-select">
+          <option value="10:00 AM">10:00 AM</option>
+          <option value="12:00 PM">12:00 PM</option>
+          <option value="2:00 PM">2:00 PM</option>
+        </select>
+        <button onclick="bookClass('Yoga Class', document.getElementById('yogaTime').value)">Book Now</button>
+      </div>
+      
+      <div class="class-card" id="class2">
+        <h3>Zumba Class</h3>
+        <p>Time Slots:</p>
+        <select id="zumbaTime" class="time-select">
+          <option value="11:00 AM">11:00 AM</option>
+          <option value="1:00 PM">1:00 PM</option>
+          <option value="3:00 PM">3:00 PM</option>
+        </select>
+        <button onclick="bookClass('Zumba Class', document.getElementById('zumbaTime').value)">Book Now</button>
+      </div>
+
+      <div class="class-card" id="class3">
+        <h3>Cardio Class</h3>
+        <p>Time Slots:</p>
+        <select id="cardioTime" class="time-select">
+          <option value="9:00 AM">9:00 AM</option>
+          <option value="5:00 PM">5:00 PM</option>
+          <option value="6:00 PM">6:00 PM</option>
+        </select>
+        <button onclick="bookClass('Cardio Class', document.getElementById('cardioTime').value)">Book Now</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Booking Confirmation Modal -->
+  <div id="bookingModal" class="modal">
+    <div class="modal-content">
+      <h2>Your Booking</h2>
+      <p id="bookingMessage"></p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <!-- JavaScript for Interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>

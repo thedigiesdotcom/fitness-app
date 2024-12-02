@@ -1,0 +1,169 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Main Content Layout */
+.main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+  padding: 20px;
+}
+
+/* Side Menu Styling */
+.side-menu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease;
+  padding-top: 20px;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.side-menu ul li {
+  padding: 15px;
+  text-align: left;
+}
+
+.side-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.side-menu ul li a:hover {
+  background-color: #575757;
+}
+
+/* Menu Button */
+.menu-btn {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Schedule Styling */
+.schedule {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.class-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.class-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.class-card button {
+  padding: 10px 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  background-color: #c00000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.class-card button:hover {
+  background-color: grey;
+}
+
+/* Trainer Profiles Styling */
+.trainer-profiles {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-profiles h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.trainer-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.trainer-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.trainer-card button {
+  padding: 10px 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  background-color: #c00000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.trainer-card button:hover {
+  background-color: grey;
+}

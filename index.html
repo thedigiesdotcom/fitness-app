@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Centre App</title>
+  <link rel="stylesheet" href="style.css" href="fitness-app.js">
+</head>
+<body>
+  <!-- Side Menu -->
+  <div class="side-menu" id="sideMenu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Class Schedule</a></li>
+      <li><a href="booking-system.html">Booking System</a></li>
+      <li><a href="#">Trainer Profiles</a></li>
+      <li><a href="#">User Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Header with Side Menu Toggle Button -->
+    <header>
+      <button class="menu-btn" onclick="toggleMenu()">&#9776; Menu</button>
+      <h1>Fitness Centre</h1>
+    </header>
+
+    <!-- Class Schedule -->
+    <section class="schedule">
+      <h2>Class Schedule</h2>
+      <div class="class-card">
+        <h3>Yoga Class</h3>
+        <p>Time: 10:00 AM - 11:00 AM</p>
+        <button>Book Now</button>
+      </div>
+      <div class="class-card">
+        <h3>Zumba Class</h3>
+        <p>Time: 1:00 PM - 2:00 PM</p>
+        <button>Book Now</button>
+      </div>
+      <div class="class-card">
+        <h3>Cardio Class</h3>
+        <p>Time: 4:00 PM - 5:00 PM</p>
+        <button>Book Now</button>
+      </div>
+    </section>
+
+    <!-- Trainer Profiles -->
+    <section class="trainer-profiles">
+      <h2>Meet Our Trainers</h2>
+      <div class="trainer-card">
+        <h3>John Doe</h3>
+        <p>Specialty: Yoga, Meditation</p>
+        <button>View Profile</button>
+      </div>
+      <div class="trainer-card">
+        <h3>Jane Smith</h3>
+        <p>Specialty: Zumba, Dance</p>
+        <button>View Profile</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- JavaScript for Toggle Menu -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('sideMenu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
