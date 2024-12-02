@@ -41,8 +41,7 @@ Add additional notes to deploy this on a live system
 
 ## Built With
 
-  - [chatGPT](https://chatGPT.com) - Used
-    for main code
+  - [[Visual Studio Code](https://code.visualstudio.com/)
   - [GitHub License Guide]([https://creativecommons.org](https://choosealicense.com/)/) - Used to choose
     the license
 
