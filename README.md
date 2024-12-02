@@ -51,7 +51,7 @@ Add additional notes to deploy this on a live system
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
 
-    **Yvette** - *Created the app with the help of chatGPT*
+    **Yvette** - *Created the app*
 
 <!-- See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
