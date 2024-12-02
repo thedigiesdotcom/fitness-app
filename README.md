@@ -41,9 +41,10 @@ Add additional notes to deploy this on a live system
 
 ## Built With
 
-  - [[Visual Studio Code](https://code.visualstudio.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
   - [GitHub License Guide]([https://creativecommons.org](https://choosealicense.com/)/) - Used to choose
     the license
+  - [chatGPT] (https://chatgpt.com/) - Used to create the basic structure of the pages and JS
 
 ## Authors
 
